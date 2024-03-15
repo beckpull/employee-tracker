@@ -22,7 +22,7 @@ INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES
     ('Patrick', 'Swanson', 1, 2),
     ('Sally', 'Jensen', 1, NULL),
     ('Marc', 'Allen', 3, NULL),
-    ('Darlene', 'Richards', 1, 2)
+    ('Darlene', 'Richards', 1, 2),
     ('Donald', 'Jones', 4, 3),
     ('Betty', 'Potter', 9, NULL),
     ('Jacob', 'Arnold', 5, 7),
@@ -31,7 +31,7 @@ INSERT INTO employees (first_name, last_name, role_id, manager_id) VALUES
     ('Allan', 'Wilde', 2, 2),
     ('Rachel', 'Dansky', 9, 5),
     ('Drake', 'Gerber', 5, 3),
-    ('Bob', 'Flanagan', 8, NULL)
+    ('Bob', 'Flanagan', 8, NULL);
 
 
 SELECT
