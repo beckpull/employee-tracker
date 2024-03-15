@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "^8.2.4"
-  },
-  "devDependencies": {}
+    "inquirer": "^8.2.4",
+    "pg": "^8.11.3"
+  }
 }

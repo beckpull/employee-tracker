@@ -11,19 +11,18 @@ CREATE TABLE departments (
 
 CREATE TABLE roles (
     id BIGSERIAL PRIMARY KEY,
-    title VARCHAR(30),
-    salary DECIMAL,
-    dept_id INT,
+    title VARCHAR(30) NOT NULL,
+    salary DECIMAL NOT NULL,
+    dept_id INT NOT NULL,
     FOREIGN KEY (dept_id) REFERENCES departments(id) ON DELETE SET NULL
 );
 
 CREATE TABLE employees (
     id BIGSERIAL PRIMARY KEY,
-    first_name VARCHAR(30),
-    last_name VARCHAR(30),
-    role_id INT,
-    manager INT,
-    is_manager BOOLEAN,
+    first_name VARCHAR(30) NOT NULL,
+    last_name VARCHAR(30) NOT NULL,
+    role_id INT NOT NULL,
     FOREIGN KEY (role_id) REFERENCES roles(id) ON DELETE SET NULL,
-    FOREIGN KEY (manager) REFERENCES employees(id) ON DELETE SET NULL
+    manager_id INT NOT NULL,
+    FOREIGN KEY (manager_id) REFERENCES employees(id) ON DELETE SET NULL
 );
