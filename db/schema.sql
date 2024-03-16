@@ -6,7 +6,7 @@ CREATE DATABASE tracker_db;
 
 CREATE TABLE departments (
     id BIGSERIAL PRIMARY KEY,
-    dept_name VARCHAR(30)
+    dept_name VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE roles (

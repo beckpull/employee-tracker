@@ -40,3 +40,12 @@ SELECT
 FROM roles 
 JOIN departments ON roles.dept_id = departments.id;
 
+SELECT employees.first_name, employees.last_name, roles.title 
+FROM employees 
+JOIN roles ON employees.role_id = roles.id
+
+SELECT employees.id, employees.first_name, employees.last_name, roles.title
+FROM employees
+LEFT JOIN roles ON employees.role_id = roles.id
+LEFT JOIN departments ON roles.dept_id = departments.id 
+WHERE departments.id = 1;
