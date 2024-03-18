@@ -66,9 +66,9 @@ An application to view and manage departments, roles, and employees in your comp
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-- This application is geared towards anybody looking for a simple and professional-looking personalized logo.
+- This application is geared towards anybody looking for a simple and easy-to-use employee database.
 
-- The goal of this application is for users to save precious time by generating a custom quality logo that is personalized to them and their brand. 
+- The goal of this application is for companies to be able to easily track employees, roles and departments of their business. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,8 @@ An application to view and manage departments, roles, and employees in your comp
 
 * ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 * ![NodeJS]
-* ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
+* ![Postgres](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+* ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -90,11 +91,9 @@ An application to view and manage departments, roles, and employees in your comp
 
 ### Prerequisites
 
-_This application has an Inquirer dependency and the jest DevDependency for testing purposes if interested_
-* npm
+_This application has an Inquirer dependency, to install globally on your machine type this into your terminal/Git Bash:_
   ```sh
   npm install -g inquirer@8.2.4
-  npm install -g jest
   ```
 
 ### Installation
@@ -110,9 +109,9 @@ _To get a local copy up and running follow these simple example steps:_
    ```sh
    npm i
    ```
-3. Node `index.js`
+3. Node `server.js`
    ```js
-   node index.js
+   node server.js
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -121,16 +120,35 @@ _To get a local copy up and running follow these simple example steps:_
 ## Usage
 <div align="center">
   <a href="https://github.com/beckpull/employee-tracker">
-    <p>#</p>
-    <img src="#" alt="" width="200" height="200">
+   <p>This is what users can expect upon installing my app:</p>
+    <img src="./assets/pic1.png" alt="Welcome screen labeled 'Employee Manager'" width="700">
+  </a>
+  <p>The following are the example outputs:</p>
+  <a href="https://github.com/beckpull/employee-tracker">
+    <p>View All Employees:</p>
+    <img src="./assets/viewEmps.png" alt="" width="500">
+  </a>
+    <a href="https://github.com/beckpull/employee-tracker">
+    <p>View All Roles:</p>
+    <img src="./assets/viewRoles.png" alt="" width="600">
+  </a>
+    <a href="https://github.com/beckpull/employee-tracker">
+    <p>View All Departments:</p>
+    <img src="./assets/viewDept.png" alt="" width="600">
+  </a>
+  <a href="https://github.com/beckpull/employee-tracker">
+    <p>View Employees by Department (from my 'Research and Development' department)</p>
+    <img src="./assets/viewEmpByDept.png" alt="" width="600">
+  </a>
+    <a href="https://github.com/beckpull/employee-tracker">
+    <p>View Utilized Budget by Department (from my 'Research and Development' department)</p>
+    <img src="./assets/deptBudget.png" alt="" width="700">
   </a>
   <p align="right"><i>#</i></p>
 
 </div>
  
 <!-- Link to video demo -->
-
- * Click [here](#) to view an attached [example] employee database . 
 
  * Click [here](#) to watch a demo video on how to use this application.
 
@@ -141,7 +159,8 @@ _To get a local copy up and running follow these simple example steps:_
 <!-- ROADMAP -->
 ## Roadmap
 
-<img src="./assets/roadmap.png">
+<p>This was how I chose to set up my schema for this project - including one <strong>departments</strong> table, one <strong>roles</strong> table (with foreign key dept_id which references departments.id) and one <strong>employees</strong> table (with foreign keys role_id which references role.id and manager_id which self-references their manager's employee id, or in other words, employees.id)</p>
+<img src="./assets/schema-roadmap.png">
 
 <!-- GIVEN a command-line application that accepts user input
 WHEN I start the application
@@ -203,6 +222,7 @@ See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a
 ## Acknowledgments
 
 * This README file template was created by [@othneildrew](https://github.com/othneildrew) - the original can be found [here](https://github.com/othneildrew/Best-README-Template)
+* Huge thank you to my tutor, [Dennis Itua](https://github.com/Dennis-The14th-web) and [@NathaliaReyes](https://github.com/nathaliareyes) for all of your help and support through this and every project! ✨
 
 #### Disclaimer: 
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
