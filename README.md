@@ -126,11 +126,11 @@ _To get a local copy up and running follow these simple example steps:_
   <p>The following are the example outputs:</p>
   <a href="https://github.com/beckpull/employee-tracker">
     <p>View All Employees:</p>
-    <img src="./assets/viewEmps.png" alt="" width="500">
+    <img src="./assets/viewAllEmps.png" alt="" width="700">
   </a>
     <a href="https://github.com/beckpull/employee-tracker">
     <p>View All Roles:</p>
-    <img src="./assets/viewRoles.png" alt="" width="600">
+    <img src="./assets/viewAllRoles.png" alt="" width="600">
   </a>
     <a href="https://github.com/beckpull/employee-tracker">
     <p>View All Departments:</p>
@@ -230,7 +230,7 @@ See the [open issues](https://github.com/beckpull/employee-tracker/issues) for a
 ## Acknowledgments
 
 * This README file template was created by [@othneildrew](https://github.com/othneildrew) - the original can be found [here](https://github.com/othneildrew/Best-README-Template)
-* Huge thank you to my tutor, [Dennis Itua](https://github.com/Dennis-The14th-web) and [@NathaliaReyes](https://github.com/nathaliareyes) for all of your help and support through this and every project! ✨
+* Huge thank you to my tutor, [Dennis Itua](https://github.com/Dennis-The14th-web) and to my friend [@NathaliaReyes](https://github.com/nathaliareyes) for all of your help and support through this and every project! ✨
 
 #### Disclaimer: 
 > I utilized several articles from sources such as (but not limited to) Stack Overflow, W3Schools, and MDN Web Docs **as references** for the javascript code attached. 
