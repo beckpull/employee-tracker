@@ -91,7 +91,7 @@ An application to view and manage departments, roles, and employees in your comp
 
 ### Prerequisites
 
-_This application has an Inquirer dependency, to install globally on your machine type this into your terminal/Git Bash:_
+_This application has an Inquirer.js dependency, to install globally on your machine type this into your Terminal / Git Bash:_
   ```sh
   npm install -g inquirer@8.2.4
   ```
@@ -159,9 +159,17 @@ _To get a local copy up and running follow these simple example steps:_
 <!-- ROADMAP -->
 ## Roadmap
 
-<p>This was how I chose to set up my schema for this project - including one <strong>departments</strong> table, one <strong>roles</strong> table (with foreign key dept_id which references departments.id) and one <strong>employees</strong> table (with foreign keys role_id which references role.id and manager_id which self-references their manager's employee id, or in other words, employees.id)</p>
-<img src="./assets/schema-roadmap.png">
 
+
+<img src="./assets/schema-roadmap.png">
+<div align="right">
+  <p><i>This was how I chose to set up my schema for this project - including one <strong>departments</strong> table, one <strong>roles</strong> table (with foreign key dept_id which references departments.id) and one <strong>employees</strong> table (with foreign keys role_id which references role.id and manager_id which self-references their manager's employee id, or in other words, employees.id)</i></p>
+</div>
+</br></br></br>
+<img src="./assets/js-roadmap.png">
+<div align="right">
+  <p><i>This was my roadmap to completing all of the acceptance criteria</i></p>
+</div>
 <!-- GIVEN a command-line application that accepts user input
 WHEN I start the application
 THEN I am presented with the following options: view all departments, view all roles, view all employees, add a department, add a role, add an employee, and update an employee role
