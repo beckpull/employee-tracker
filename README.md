@@ -23,7 +23,7 @@ An application to view and manage departments, roles, and employees in your comp
     <a href="https://github.com/beckpull/employee-tracker"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view">View Demo</a>
     ·
     <a href="https://github.com/beckpull/employee-tracker/issues">Report Bug</a>
     ·
@@ -66,9 +66,9 @@ An application to view and manage departments, roles, and employees in your comp
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-- This application is geared towards anybody looking for a simple and easy-to-use employee database.
+- This application is geared towards anybody looking for an easy-to-use employee database.
 
-- The goal of this application is for companies to be able to easily track employees, roles and departments of their business. 
+- The goal of this application is for companies to be able to easily track employees, roles and departments of their business in order to simplify one of the more complicated parts of running a business. 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -118,9 +118,14 @@ _To get a local copy up and running follow these simple example steps:_
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+ 
+<!-- Link to video demo -->
+ * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) to watch a demo video on how to use this application.**
+ </br></br>
 <div align="center">
+
   <a href="https://github.com/beckpull/employee-tracker">
-   <p>This is what users can expect upon installing my app:</p>
+   <p>This is what users can expect upon installing/running my app:</p>
     <img src="./assets/pic1.png" alt="Welcome screen labeled 'Employee Manager'" width="700">
   </a>
   <p>The following are the example outputs:</p>
@@ -147,10 +152,7 @@ _To get a local copy up and running follow these simple example steps:_
   <p align="right"><i>#</i></p>
 
 </div>
- 
-<!-- Link to video demo -->
 
- * Click [here](#) to watch a demo video on how to use this application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
