@@ -120,10 +120,12 @@ _To get a local copy up and running follow these simple example steps:_
 ## Usage
  
 <!-- Link to video demo -->
- * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) to watch a demo video on how to use this application.**
+ * **Click [here](https://drive.google.com/file/d/1fIfTcOII_ZGxZxVqTUCiBslrCZgGnP82/view) or scan the below QR code to watch a demo video on how to use this application.**
  </br></br>
 <div align="center">
-
+ <a href="https://github.com/beckpull/employee-tracker">
+    <img src="./assets/qr.png" alt="Welcome screen labeled 'Employee Manager'" width="200">
+  </a> 
   <a href="https://github.com/beckpull/employee-tracker">
    <p>This is what users can expect upon installing/running my app:</p>
     <img src="./assets/pic1.png" alt="Welcome screen labeled 'Employee Manager'" width="700">
